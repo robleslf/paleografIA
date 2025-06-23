@@ -1,0 +1,1542 @@
+[
+    {
+        "entidades": [
+            {
+                "id": "Luz Sol",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Junta General del Principado de Asturias",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Josefina VELASCO ROZADO",
+                "tipo": "Persona",
+                "atributos": {
+                    "edicion": "a cargo"
+                }
+            },
+            {
+                "id": "Mª Josefa SANZ FUENTES",
+                "tipo": "Persona",
+                "atributos": {
+                    "edicion diplomática": "a cargo"
+                }
+            },
+            {
+                "id": "Jeniffer FERNÁNDEZ GONZÁLEZ",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Belén GARCÍA ALONSO",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Felipe ROBLES LÓPEZ",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Rosalía SANDOVAL CABALLERO",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Marcelino Marcos Líndez",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Presidente de la Junta General del Principado de Asturias"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Josefina VELASCO ROZADO",
+                "predicado": "Edición a cargo de",
+                "objeto": null
+            },
+            {
+                "sujeto": "Mª Josefa SANZ FUENTES",
+                "predicado": "Edición diplomática a cargo de",
+                "objeto": null
+            },
+            {
+                "sujeto": "Jeniffer FERNÁNDEZ GONZÁLEZ",
+                "predicado": "Elaboración e índices",
+                "objeto": null
+            },
+            {
+                "sujeto": "Belén GARCÍA ALONSO",
+                "predicado": "Elaboración e índices",
+                "objeto": null
+            },
+            {
+                "sujeto": "Felipe ROBLES LÓPEZ",
+                "predicado": "Elaboración e índices",
+                "objeto": null
+            },
+            {
+                "sujeto": "Rosalía SANDOVAL CABALLERO",
+                "predicado": "Elaboración e índices",
+                "objeto": null
+            },
+            {
+                "sujeto": "Marcelino Marcos Líndez",
+                "predicado": "Presidente de la Junta General del Principado de Asturias",
+                "objeto": "Junta General del Principado de Asturias"
+            }
+        ],
+        "metadata": {
+            "source_page": 4,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "D. Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Don",
+                    "cargo": "Gobernador"
+                }
+            },
+            {
+                "id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "id": "Concejo de Oviedo",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Real Chancillería de Valladolid",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Don Francisco de Castro y Taboada",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Secretario de cámara"
+                }
+            },
+            {
+                "id": "Real provisión",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Real cédula",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Principado de Asturias",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Región"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Carlos II",
+                "predicado": "ORDENÓ",
+                "objeto": "Real provisión"
+            },
+            {
+                "sujeto": "Carlos II",
+                "predicado": "ORDENÓ",
+                "objeto": "Real cédula"
+            },
+            {
+                "sujeto": "Concejo de Oviedo",
+                "predicado": "RECIPIÓ",
+                "objeto": "don Juan Blasco de Orozco"
+            },
+            {
+                "sujeto": "Real Chancillería de Valladolid",
+                "predicado": "RECIPIÓ",
+                "objeto": "juramento de don Juan Blasco de Orozco"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Don Francisco de Castro y Taboada",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "secretario de cámara"
+                }
+            },
+            {
+                "id": "Don Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Real Chancillería de Valladolid",
+                "tipo": "Organización",
+                "atributos": {
+                    "lugar": "Valladolid"
+                }
+            },
+            {
+                "id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "id": "Partido de Ibias",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "Antonio Roza Argüelles",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Lorenzo Álvarez Nava",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Villaviciosa",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Partido"
+                }
+            },
+            {
+                "id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Junta",
+                "tipo": "Organización",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Don Francisco de Castro y Taboada",
+                "predicado": "DA_TESTIMONIO",
+                "objeto": "Juramento"
+            },
+            {
+                "sujeto": "Carlos II",
+                "predicado": "NOMBRÓ",
+                "objeto": "Don Juan Blasco de Orozco"
+            },
+            {
+                "sujeto": "Real Chancillería de Valladolid",
+                "predicado": "CONCEDIÓ",
+                "objeto": "Nuevo mes de plazo"
+            },
+            {
+                "sujeto": "Don Juan Blasco de Orozco",
+                "predicado": "CONFIRMO",
+                "objeto": "Derecho a voto"
+            },
+            {
+                "sujeto": "Antonio Roza Argüelles",
+                "predicado": "PRESENTÓ",
+                "objeto": "Petición"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Memorial presentado por don Francisco Antonio de Estrada y don Lope Ruiz de Junco",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Don Francisco Antonio de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "Lope Ruiz de Junco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "José de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "depositario general del Principado"
+                }
+            },
+            {
+                "id": "Estudio Diplomático",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Apunte Histórico",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Libro de Presentación",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Nota de edición",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Principado",
+                "tipo": "Organización",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Memorial presentado por don Francisco Antonio de Estrada y don Lope Ruiz de Junco",
+                "predicado": "",
+                "objeto": ""
+            },
+            {
+                "sujeto": "Don Francisco Antonio de Estrada",
+                "predicado": "presentó",
+                "objeto": "Memorial presentado por don Francisco Antonio de Estrada y don Lope Ruiz de Junco"
+            },
+            {
+                "sujeto": "Lope Ruiz de Junco",
+                "predicado": "presentó",
+                "objeto": "Memorial presentado por don Francisco Antonio de Estrada y don Lope Ruiz de Junco"
+            },
+            {
+                "sujeto": "José de Toro Escajadillo",
+                "predicado": "pidió",
+                "objeto": "ser nombrado depositario general del Principado"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "don José Manuel Bolero y Muñoz",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": "gobernador"
+                }
+            },
+            {
+                "id": "Principado",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "principado"
+                }
+            },
+            {
+                "id": "Conservaduría de rentas reales",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "don Baltasar de Caso Orlé",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "Maraña (León)",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "villa"
+                }
+            },
+            {
+                "id": "Infiesto",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "villa"
+                }
+            },
+            {
+                "id": "don Luis de Valdés",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "Francisco de Peón Valdés",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "representante"
+                }
+            },
+            {
+                "id": "Pedro del Pozo",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Luis de Valdés",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Consejo Real",
+                "tipo": "Organización",
+                "atributos": {
+                    "nombre": "Consejo Real"
+                }
+            },
+            {
+                "id": "Real Provisión",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo": "real provisión"
+                }
+            },
+            {
+                "id": "don Diego de Ayala",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": "juez"
+                }
+            },
+            {
+                "id": "Lena",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "villa"
+                }
+            },
+            {
+                "id": "Cantiad de rentas reales",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "don José Manuel Bolero y Muñoz",
+                "predicado": "PIDIÓ",
+                "objeto": "Conservaduría de rentas reales"
+            },
+            {
+                "sujeto": "don Baltasar de Caso Orlé",
+                "predicado": "PIDIÓ",
+                "objeto": "Camino de Maraña (León) a Infiesto"
+            },
+            {
+                "sujeto": "don Luis de Valdés",
+                "predicado": "RECLAMÓ",
+                "objeto": "cantiad que se le adeuda"
+            },
+            {
+                "sujeto": "Pedro del Pozo",
+                "predicado": "PIDIÓ",
+                "objeto": "Real Provisión"
+            },
+            {
+                "sujeto": "don Luis de Valdés",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "negocios de la Corte"
+            },
+            {
+                "sujeto": "Pedro del Pozo",
+                "predicado": "REPRESENTÓ",
+                "objeto": "don Luis de Valdés"
+            },
+            {
+                "sujeto": "don Diego de Ayala",
+                "predicado": "PIDIÓ",
+                "objeto": "reparaciones de caminos y puentes en Lena"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Don Diego de Ayala",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": "juez de Lena"
+                }
+            },
+            {
+                "id": "Lena",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Concejo"
+                }
+            },
+            {
+                "id": "Reparaciones de caminos y puentes",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "Auto de regulación sobre la depositaduría general del Principado de Asturias",
+                "tipo": "Documento",
+                "atributos": {
+                    "fecha": "1700-09-04"
+                }
+            },
+            {
+                "id": "Don José de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": "depositario general"
+                }
+            },
+            {
+                "id": "Principado de Asturias",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Consejo de Castilla",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Don fray Manuel Arias",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "fray",
+                    "cargo": "presidente"
+                }
+            },
+            {
+                "id": "Carta",
+                "tipo": "Documento",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Don Diego de Ayala",
+                "predicado": "PIDIÓ",
+                "objeto": "Reparaciones de caminos y puentes"
+            },
+            {
+                "sujeto": "Auto de regulación sobre la depositaduría general del Principado de Asturias",
+                "predicado": "ORDENÓ",
+                "objeto": "Don José de Toro Escajadillo"
+            },
+            {
+                "sujeto": "Don fray Manuel Arias",
+                "predicado": "NOTIFICÓ",
+                "objeto": "Carta"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Don fray Manuel Arias",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "presidente del Consejo de Castilla"
+                }
+            },
+            {
+                "id": "Consejo de Castilla",
+                "tipo": "Organización"
+            },
+            {
+                "id": "Duke of Anjou",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Duque"
+                }
+            },
+            {
+                "id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "gobernador"
+                }
+            },
+            {
+                "id": "Rafael Sáenz Maza",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "secretario del Rey"
+                }
+            },
+            {
+                "id": "Real Provisión",
+                "tipo": "Documento"
+            },
+            {
+                "id": "Carta de don fray Manuel Arias",
+                "tipo": "Documento"
+            },
+            {
+                "id": "Cláusulas del testamento de Carlos II",
+                "tipo": "ConceptoClave"
+            },
+            {
+                "id": "Junta de Gobierno",
+                "tipo": "ConceptoClave"
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Don fray Manuel Arias",
+                "predicado": "NOTIFICÓ",
+                "objeto": "La muerte del rey Carlos II"
+            },
+            {
+                "sujeto": "Don fray Manuel Arias",
+                "predicado": "REMITIÓ",
+                "objeto": "Real Provisión del Consejo de Gobierno"
+            },
+            {
+                "sujeto": "Don fray Manuel Arias",
+                "predicado": "REMITIÓ",
+                "objeto": "Cláusulas del testamento de Carlos II"
+            },
+            {
+                "sujeto": "Consejo de Castilla",
+                "predicado": "ORDENÓ",
+                "objeto": "Juan Blasco de Orozco para que haga cumplir lo establecido por el monarca en su testamento"
+            },
+            {
+                "sujeto": "Carlos II",
+                "predicado": "FALLECIÓ"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Rafael Sáenz Maza",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "secretario",
+                    "cargo": "secretario real y del Consejo"
+                }
+            },
+            {
+                "id": "Manuel Arias",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "fray",
+                    "cargo": "presidente de Castilla"
+                }
+            },
+            {
+                "id": "Fernando Queipo de Llano y Valdés",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "conde",
+                    "cargo": "conde de Toreno"
+                }
+            },
+            {
+                "id": "Fernando León Falcón",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "teniente de alférez mayor del Principado de Asturias"
+                }
+            },
+            {
+                "id": "Junta de Diputación",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "id": "Don Rodrigo Manuel Manrique de Lara",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "conde",
+                    "cargo": "conde de Frigiliana"
+                }
+            },
+            {
+                "id": "Don Francisco Casimiro Pimentel",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "conde",
+                    "cargo": "conde de Benavente"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Rafael Sáenz Maza",
+                "predicado": "ESCRIBIÓ",
+                "objeto": "Carta"
+            },
+            {
+                "sujeto": "Fernando Queipo de Llano y Valdés",
+                "predicado": "NOMBRÓ",
+                "objeto": "Fernando León Falcón"
+            },
+            {
+                "sujeto": "Carlos II",
+                "predicado": "HECHO_NOMBRAMENTO",
+                "objeto": "Don Rodrigo Manuel Manrique de Lara y Don Francisco Casimiro Pimentel"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": "corregidor"
+                }
+            },
+            {
+                "id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Monarca"
+                }
+            },
+            {
+                "id": "Sala Capitular de la Catedral",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Villa",
+                    "nombre": "Sala Capitular de la Catedral"
+                }
+            },
+            {
+                "id": "Cabildo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Concejo",
+                    "nombre": "Cabildo"
+                }
+            },
+            {
+                "id": "Cuarto de despacho del gobernador",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Edificio",
+                    "nombre": "Cuarto de despacho del gobernador"
+                }
+            },
+            {
+                "id": "Junta General",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Actas de la Junta General y sus diputaciones",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo": "Libro"
+                }
+            },
+            {
+                "id": "Guerra de Sucesión",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Juan Blasco de Orozco",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "corregidor"
+            },
+            {
+                "sujeto": "Carlos II",
+                "predicado": "MURIÓ",
+                "objeto": ""
+            },
+            {
+                "sujeto": "Sala Capitular de la Catedral",
+                "predicado": "ERA_LA_SEDE",
+                "objeto": "Junta General"
+            },
+            {
+                "sujeto": "Cabildo",
+                "predicado": "ERA_LA_SEDE",
+                "objeto": ""
+            },
+            {
+                "sujeto": "Cuarto de despacho del gobernador",
+                "predicado": "ERA_LA_SEDE",
+                "objeto": "Diputaciones"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "id": "Real Provisión",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Junta General",
+                "tipo": "Organización",
+                "atributos": {
+                    "fecha": "26 de agosto - 4 de septiembre"
+                }
+            },
+            {
+                "id": "Guerra de Sucesión",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Blasco de Orozco",
+                "predicado": "TOMÓ_MENSAJE",
+                "objeto": "Real Provisión"
+            },
+            {
+                "sujeto": "Carlos II",
+                "predicado": "FIRMO",
+                "objeto": "Real Provisión"
+            },
+            {
+                "sujeto": "Junta General",
+                "predicado": "CELEBRÓ",
+                "objeto": null
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Diputación",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Carta",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Consejo de Castilla",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Rey Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "id": "Duque de Anjou",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Duque"
+                }
+            },
+            {
+                "id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Monarca"
+                }
+            },
+            {
+                "id": "Junta de Gobierno del Reino",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Rodrigo Manuel Manrique de Lara",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Conde",
+                    "cargo": "gobernador"
+                }
+            },
+            {
+                "id": "Frigiliana",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Concejo"
+                }
+            },
+            {
+                "id": "Francisco Casimiro Pimentel",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Conde",
+                    "cargo": "gobernador"
+                }
+            },
+            {
+                "id": "Benavente",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Concejo"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Diputación",
+                "predicado": "RECEBIÓ",
+                "objeto": "Carta"
+            },
+            {
+                "sujeto": "Consejo de Castilla",
+                "predicado": "FUE_FIRMADO",
+                "objeto": "Carta"
+            },
+            {
+                "sujeto": "Carta",
+                "predicado": "NOTIFICÓ",
+                "objeto": "Muerte del rey Carlos II"
+            },
+            {
+                "sujeto": "Carta",
+                "predicado": "DECLARÓ",
+                "objeto": "Sucesión de Felipe V"
+            },
+            {
+                "sujeto": "Gobernador",
+                "predicado": "DEBÍO_CUMPLIR",
+                "objeto": "Cláusulas del regio testamento"
+            },
+            {
+                "sujeto": "Junta de Gobierno del Reino",
+                "predicado": "ASUMIÓ_CONTROL",
+                "objeto": {}
+            },
+            {
+                "sujeto": "Rodrigo Manuel Manrique de Lara",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobernador"
+            },
+            {
+                "sujeto": "Francisco Casimiro Pimentel",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobernador"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Apéndice Onomástico",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "id": "Biografías",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "1r. Juntta General de 26 de agostto de mill y setezientos años",
+                "tipo": "Organización",
+                "atributos": {
+                    "fecha": "26 de agosto del año de mill y setezientoss"
+                }
+            },
+            {
+                "id": "Señor don Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Señor",
+                    "cargo": "Gobernador"
+                }
+            },
+            {
+                "id": "Consejo de Su Magestad",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Santa Yglesia Cathedral",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Catedral"
+                }
+            },
+            {
+                "id": "Ciudad de Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Señor don Joseph de Uriarte Ysunza",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Señor",
+                    "cargo": "Gobernador y capitán a guerra"
+                }
+            },
+            {
+                "id": "Caballeross procuradores",
+                "tipo": "Organización",
+                "atributos": {}
+            },
+            {
+                "id": "Villas y conzejos",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Villa, Concejo"
+                }
+            },
+            {
+                "id": "Señor don Françisco Antonio de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Señor"
+                }
+            },
+            {
+                "id": "Don Thoribio de la Buelga Argüelles",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Don"
+                }
+            },
+            {
+                "id": "Conde de Toreno",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Conde",
+                    "cargo": "Alférez mayor"
+                }
+            },
+            {
+                "id": "Marqués de Camposagrado",
+                "tipo": "Persona",
+                "atributes": {
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "id": "Don Lope Ruyz de Junco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Don"
+                }
+            },
+            {
+                "id": "Don Pedro Duque de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Don"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "1r. Juntta General de 26 de agostto de mill y setezientos años",
+                "predicado": "SE_REUNIÓ",
+                "objeto": "Señor don Joseph de Uriarte Ysunza"
+            },
+            {
+                "sujeto": "1r. Juntta General de 26 de agostto de mill y setezientos años",
+                "predicado": "DIO_LA_POSESIÓN",
+                "objeto": "Señor don Juan Blasco de Orozco"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "don Lope Ruyz de Junco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Pedro Duque de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Juan Francisco de Rivero y Cienfuegos",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Juan Antonio Navia Osorio y Argüelles",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "marqués de Santa Cruz de Marzenado",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "Fernando de Valdés Hevia y Cas-so",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Bartholomé de Argüelles",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Joseph de Junco y Posada",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Gaspar de Jove Bernardo",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Gregorio de Jovellanos",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Sancho de Miranda Ponze de León marqués de Baldecarzana",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "marqués de Baldecarzana",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Bartholomé Francesco Dasmarinas",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "don Lope Josephe de Argüelles Quiñones",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "Clemente de Vigil Hevia y otros señores caballeros poderes havientes que, por escusar prolijidad, no se expresan como adelante lo yrán.",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "id": "don Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "",
+                    "cargo": ""
+                }
+            },
+            {
+                "id": "Su Magestad (Dios le guarde)",
+                "tipo": "ConceptoClave",
+                "atributos": {
+                    "titulo": "rey de Castilla, de León, de Aragon"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "",
+                "predicado": "SE_MANIFESTARON_Y_ENTREGARON",
+                "objeto": "don Juan Blasco de Orozco"
+            },
+            {
+                "sujeto": "",
+                "predicado": "EXPIDIERON",
+                "objeto": "Su Magestad (Dios le guarde)"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "id": "Don Carlos",
+                "tipo": "Persona",
+                "atributos": {
+                    "titulo": "Rey",
+                    "cargo": "2r. rey"
+                }
+            },
+            {
+                "id": "Castilla",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Reino"
+                }
+            },
+            {
+                "id": "León",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Reino"
+                }
+            },
+            {
+                "id": "Aragón",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Reino"
+                }
+            },
+            {
+                "id": "Dos Sizilias",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Reino"
+                }
+            },
+            {
+                "id": "Hierusalén",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Terra Firme"
+                }
+            },
+            {
+                "id": "Nabarra",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Reino"
+                }
+            },
+            {
+                "id": "Granada",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Terra Firme"
+                }
+            },
+            {
+                "id": "Toledo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Balenzia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Terra Firme"
+                }
+            },
+            {
+                "id": "Galizia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Reino"
+                }
+            },
+            {
+                "id": "Mallorcass",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Isla"
+                }
+            },
+            {
+                "id": "Sevilla",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Zerdeña",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Terra Firme"
+                }
+            },
+            {
+                "id": "Córdoba",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Córzega",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Terra Firme"
+                }
+            },
+            {
+                "id": "Murzia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Jaén",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Algarbes",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Región"
+                }
+            },
+            {
+                "id": "Algeziras",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Jibraltar",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Ciudad"
+                }
+            },
+            {
+                "id": "Islas de Canaria",
+                "tipo": "Lugar",
+                "atributos": {
+                    "tipo": "Archipiélago"
+                }
+            },
+            {
+                "id": "Yndias Orientales y Ocçidentales",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "Islas y tierra firme del mar Océano",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "Concejo",
+                "tipo": "Organización",
+                "atributos": {
+                    "fecha": "1700",
+                    "inicio": "AGOSTO, 26",
+                    "fin": "SEPTIEMBRE, 4"
+                }
+            },
+            {
+                "id": "Justizia",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "id": "Rejidores",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Oficial"
+                }
+            },
+            {
+                "id": "Cavalleros",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Oficial"
+                }
+            },
+            {
+                "id": "Escuderos",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Oficial"
+                }
+            },
+            {
+                "id": "Ofiziales",
+                "tipo": "Persona",
+                "atributos": {
+                    "cargo": "Oficial"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "Don Carlos",
+                "predicado": "ES",
+                "objeto": "Rey de Castilla, de León, de Aragón, de las dos Sizilias, de Hierusalén, de Nabarra, de Granada, de Toledo, de Balenzia, de Galizia, de Mallorcass, de Sevilla, de Zerdeña, de Córdoba, de Córzega, de Murzia, de Jaén, de los Algarbes, de Algeziras, de Jibraltar, de las islas de Canaria, de las Yndias Orientales y Ocçidentales, yslas y tierra firme del mar Océano"
+            },
+            {
+                "sujeto": "Don Carlos",
+                "predicado": "ES",
+                "objeto": "Archiduque de Austria"
+            },
+            {
+                "sujeto": "Don Carlos",
+                "predicado": "ES",
+                "objeto": "Duque de Borgoña, de Brabante y Mi-lán"
+            },
+            {
+                "sujeto": "Don Carlos",
+                "predicado": "ES",
+                "objeto": "Conde de Abspurg, de Flandes, Tirol y Barzelona"
+            },
+            {
+                "sujeto": "Don Carlos",
+                "predicado": "SEÑOR",
+                "objeto": "Bizcaya y de Molina"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    }
+]
