@@ -11,47 +11,46 @@ EMBEDDING_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
 OLLAMA_MODEL = 'llama3'
 # Las páginas de muestra que seleccionamos del Tomo XI
 PAGES_TO_TEST = [4, 5, 6, 13, 25] 
+TARGET_FILENAME_HINT = "Tomo XI" # Pista para encontrar el archivo correcto
 
-# --- Prompt para la extracción de conocimiento ---
+# --- Prompt para la extracción de conocimiento v2.0 (MUY ESTRICTO) ---
 extraction_prompt_template = """
-A partir del siguiente CONTEXTO de un acta histórica, extrae todas las entidades y relaciones relevantes.
-Tu objetivo es construir un grafo de conocimiento. Debes seguir el siguiente esquema estrictamente:
+A partir del siguiente CONTEXTO de un acta histórica, tu misión es actuar como un archivista experto y extraer entidades y relaciones en un formato JSON estricto.
 
-ESQUEMA:
-1.  **Entidades:** Identifica Personas, Lugares, Fechas, Organizaciones, Documentos y Conceptos Clave.
-    -   Persona: Nombre completo. Atributos: "titulo" (ej: Conde), "cargo" (ej: Gobernador).
-    -   Lugar: Nombre del lugar. Atributos: "tipo" (ej: Concejo, Villa, Ciudad).
-    -   Organización: Nombre de la institución. (ej: Junta General, Consejo de Castilla).
-    -   Fecha: La fecha del evento.
-    -   Documento: El tipo de documento. (ej: Real Provisión, Carta).
-    -   ConceptoClave: El tema principal o asunto. (ej: impuestos, defensa de las costas).
-2.  **Relaciones:** Conecta las entidades con predicados claros como 'ASISTIÓ_A', 'FUE_NOMBRADO', 'ORDENÓ', 'RECLAMÓ', 'TRATÓ_SOBRE', 'NOTIFICÓ'.
+### ESQUEMA ESTRICTO DE TIPOS Y ATRIBUTOS
+Solo puedes usar los siguientes tipos de entidad: "Persona", "Lugar", "Organizacion", "Fecha", "Documento", "ConceptoClave".
 
-FORMATO DE SALIDA:
-Tu respuesta debe ser únicamente un objeto JSON válido, sin ningún texto o explicación adicional.
-La estructura del JSON debe ser:
+1.  **Persona:**
+    -   Atributos OBLIGATORIOS: `nombre_completo`.
+    -   Atributos OPCIONALES: `titulo` (ej: "Conde", "Marqués"), `cargo` (ej: "Gobernador", "Alférez mayor").
+2.  **Lugar:**
+    -   Atributos OBLIGATORIOS: `nombre`.
+    -   Atributos OPCIONALES: `subtipo` (solo puede ser "Ciudad", "Concejo", "Villa", "Parroquia", "Reino").
+3.  **Organizacion:**
+    -   Atributos OBLIGATORIOS: `nombre` (ej: "Junta General", "Consejo de Castilla").
+4.  **Fecha:**
+    -   Atributos OBLIGATORIOS: `fecha_texto` (la fecha tal como aparece en el texto).
+5.  **Documento:**
+    -   Atributos OBLIGATORIOS: `tipo_documento` (ej: "Real Provisión", "Carta", "Memorial").
+6.  **ConceptoClave:**
+    -   Atributos OBLIGATORIOS: `tema`.
+
+### ESQUEMA DE RELACIONES
+Usa verbos de acción claros en mayúsculas como predicado. Ejemplos: "ASISTIÓ_A", "FUE_NOMBRADO", "ORDENÓ", "RECLAMÓ", "TRATÓ_SOBRE".
+
+### FORMATO DE SALIDA
+Tu respuesta debe ser únicamente un objeto JSON válido, sin explicaciones. Sigue esta estructura:
 {{
   "entidades": [
-    {{"id": "Nombre de la Entidad", "tipo": "TipoDeEntidad", "atributos": {{"key": "value"}} }}
+    {{"id": "Nombre normalizado", "tipo": "TipoDeEntidad", "atributos": {{"key": "value"}} }}
   ],
   "relaciones": [
     {{"sujeto": "ID_Entidad_Sujeto", "predicado": "VERBO_RELACION", "objeto": "ID_Entidad_Objeto"}}
   ]
 }}
 
-EJEMPLO:
-CONTEXTO: "En la Junta de 1703, el Conde de Toreno, alférez mayor, pidió una leva de soldados."
-SALIDA JSON:
-{{
-  "entidades": [
-    {{"id": "Junta de 1703", "tipo": "Organización", "atributos": {{"fecha": "1703"}} }},
-    {{"id": "Conde de Toreno", "tipo": "Persona", "atributos": {{"titulo": "Conde", "cargo": "alférez mayor"}} }},
-    {{"id": "Leva de soldados", "tipo": "ConceptoClave", "atributos": {{}} }}
-  ],
-  "relaciones": [
-    {{"sujeto": "Conde de Toreno", "predicado": "PIDIÓ", "objeto": "Leva de soldados"}}
-  ]
-}}
+### INSTRUCCIÓN CRÍTICA
+Antes de generar la salida, revisa que cada entidad tiene su 'tipo' y sus atributos obligatorios según el esquema. Si una entidad no encaja, no la incluyas. La consistencia es la máxima prioridad.
 
 ---
 CONTEXTO:
@@ -80,20 +79,27 @@ if __name__ == "__main__":
     # 2. Obtener solo los documentos de las páginas seleccionadas para la prueba
     all_docs = db.docstore._dict
     docs_to_process = []
-    target_filename = 'Actas Históricas. Tomo XI (1700-1704).pdf'
-
+    
     for doc_id, doc in all_docs.items():
-        if os.path.basename(doc.metadata.get('source', '')) == target_filename and (doc.metadata.get('page', -1) + 1) in PAGES_TO_TEST:
+        source_path = doc.metadata.get('source', '')
+        page_num = doc.metadata.get('page', -1) + 1
+        
+        # --- LÍNEA CORREGIDA Y MEJORADA ---
+        if TARGET_FILENAME_HINT in source_path and page_num in PAGES_TO_TEST:
             docs_to_process.append(doc)
     
     print(f"-> Se han encontrado {len(docs_to_process)} fragmentos correspondientes a las páginas de muestra.")
+
+    if not docs_to_process:
+        print("\nADVERTENCIA: No se encontraron fragmentos para procesar. Verifica la configuración `PAGES_TO_TEST` y `TARGET_FILENAME_HINT`.")
+        exit()
 
     # 3. Configurar la cadena de extracción
     extraction_chain = get_extraction_chain()
 
     # 4. Procesar la muestra
     extracted_data = []
-    response = "" # Inicializamos la variable response
+    response = ""
     for i, doc in enumerate(docs_to_process):
         page_num = doc.metadata.get('page', -1) + 1
         print(f"\n--- Procesando fragmento de la página {page_num} ({i+1}/{len(docs_to_process)}) ---")
@@ -105,7 +111,7 @@ if __name__ == "__main__":
             response = extraction_chain.invoke({"context": doc.page_content})
             clean_response = response.strip().replace("```json", "").replace("```", "").strip()
             data = json.loads(clean_response)
-            data['metadata'] = {'source_page': page_num, 'source_file': target_filename}
+            data['metadata'] = {'source_page': page_num, 'source_file': os.path.basename(doc.metadata.get('source'))}
             extracted_data.append(data)
             print("-> Datos extraídos con éxito.")
         except Exception as e:

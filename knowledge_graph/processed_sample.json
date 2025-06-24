@@ -1,0 +1,4366 @@
+[
+    {
+        "entidades": [
+            {
+                "canonical_id": "marcelino_marcos_líndez",
+                "original_id": "Marcelino Marcos Líndez",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Marcelino Marcos Líndez"
+                }
+            },
+            {
+                "canonical_id": "josefina_velasco_rozado",
+                "original_id": "Josefina VELASCO ROZADO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Josefina VELASCO ROZADO",
+                    "cargo": "Edición a cargo de"
+                }
+            },
+            {
+                "canonical_id": "m_josefa_sanz_fuentes",
+                "original_id": "Mª Josefa SANZ FUENTES",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Mª Josefa SANZ FUENTES",
+                    "cargo": "Edición diplomática a cargo de"
+                }
+            },
+            {
+                "canonical_id": "jeniffer_fernández_gonzález",
+                "original_id": "Jeniffer FERNÁNDEZ GONZÁLEZ",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Jeniffer FERNÁNDEZ GONZÁLEZ",
+                    "cargo": "Elaboración e índices"
+                }
+            },
+            {
+                "canonical_id": "belén_garcía_alonso",
+                "original_id": "Belén GARCÍA ALONSO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Belén GARCÍA ALONSO",
+                    "cargo": "Elaboración e índices"
+                }
+            },
+            {
+                "canonical_id": "felipe_robles_lópez",
+                "original_id": "Felipe ROBLES LÓPEZ",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe ROBLES LÓPEZ",
+                    "cargo": "Elaboración e índices"
+                }
+            },
+            {
+                "canonical_id": "rosalía_sandoval_caballero",
+                "original_id": "Rosalía SANDOVAL CABALLERO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rosalía SANDOVAL CABALLERO",
+                    "cargo": "Elaboración e índices"
+                }
+            }
+        ],
+        "relaciones": [],
+        "metadata": {
+            "source_page": 4,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "carlos_ii",
+                "original_id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Carlos II",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Blasco de Orozco",
+                    "cargo": "Gobernador"
+                }
+            },
+            {
+                "canonical_id": "oviedo_a",
+                "original_id": "Oviedo A.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo A.",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid_b",
+                "original_id": "Madrid B.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid B.",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "real_chancillería_de_valladolid",
+                "original_id": "Real Chancillería de Valladolid",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Real Chancillería de Valladolid"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "carlos_ii",
+                "predicado": "ORDENÓ",
+                "objeto": "juan_blasco_de_orozco"
+            },
+            {
+                "sujeto": "carlos_ii",
+                "predicado": "ORDENÓ",
+                "objeto": "real_chancillería_de_valladolid"
+            },
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "corregidor_del_principado_de_asturias"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "francisco_de_castro_y_taboada",
+                "original_id": "Don Francisco de Castro y Taboada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Francisco de Castro y Taboada",
+                    "cargo": "secretario de cámara"
+                }
+            },
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Don Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Juan Blasco de Orozco",
+                    "titulo": "capitán a guerra"
+                }
+            },
+            {
+                "canonical_id": "carlos_ii",
+                "original_id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "valladolid",
+                "original_id": "Valladolid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Valladolid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "real_chancillería_de_valladolid",
+                "original_id": "Real Chancillería de Valladolid",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Real Chancillería de Valladolid"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "francisco_de_castro_y_taboada",
+                "predicado": "DA_TESTIMONIO",
+                "objeto": "juramento"
+            },
+            {
+                "sujeto": "carlos_ii",
+                "predicado": "NOMBRÓ",
+                "objeto": "juan_blasco_de_orozco"
+            },
+            {
+                "sujeto": "real_chancillería_de_valladolid",
+                "predicado": "CONCEDIÓ",
+                "objeto": "un_nuevo_mes_de_plazo"
+            },
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "CONFIRMO",
+                "objeto": "derecho_a_voto"
+            },
+            {
+                "sujeto": "lorenzo_álvarez_nava",
+                "predicado": "PRESENTÓ",
+                "objeto": "petición"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "francisco_antonio_de_estrada",
+                "original_id": "Francisco Antonio de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Francisco Antonio de Estrada"
+                }
+            },
+            {
+                "canonical_id": "lope_ruiz_de_junco",
+                "original_id": "Lope Ruiz de Junco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Lope Ruiz de Junco"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "josé_de_toro_escajadillo",
+                "original_id": "José de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "José de Toro Escajadillo"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "francisco_antonio_de_estrada",
+                "predicado": "PRESENTÓ",
+                "objeto": "memorial"
+            },
+            {
+                "sujeto": "lope_ruiz_de_junco",
+                "predicado": "PRESENTÓ",
+                "objeto": "memorial"
+            },
+            {
+                "sujeto": "josé_de_toro_escajadillo",
+                "predicado": "PIDIÓ_SER_NOMBRADO",
+                "objeto": "depositario_general_del_principado"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "josé_manuel_bolero_y_muñoz",
+                "original_id": "José Manuel Bolero y Muñoz",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "José Manuel Bolero y Muñoz"
+                }
+            },
+            {
+                "canonical_id": "baltasar_de_caso_orlé",
+                "original_id": "Baltasar de Caso Orlé",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Baltasar de Caso Orlé"
+                }
+            },
+            {
+                "canonical_id": "luis_de_valdés",
+                "original_id": "Luis de Valdés",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Luis de Valdés"
+                }
+            },
+            {
+                "canonical_id": "francisco_de_peón_valdés",
+                "original_id": "Francisco de Peón Valdés",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Francisco de Peón Valdés"
+                }
+            },
+            {
+                "canonical_id": "pedro_del_pozo",
+                "original_id": "Pedro del Pozo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Pedro del Pozo"
+                }
+            },
+            {
+                "canonical_id": "diego_de_ayala",
+                "original_id": "Don Diego de Ayala",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Diego de Ayala"
+                }
+            },
+            {
+                "canonical_id": "principado",
+                "original_id": "Principado",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "consejo_real",
+                "original_id": "Consejo Real",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            },
+            {
+                "canonical_id": "maraña_león",
+                "original_id": "Maraña (León)",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Maraña (León)",
+                    "subtipo": "Villa"
+                }
+            },
+            {
+                "canonical_id": "infiesto",
+                "original_id": "Infiesto",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Infiesto"
+                }
+            },
+            {
+                "canonical_id": "16990605",
+                "original_id": "1699-06-05",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "1699, junio, 5"
+                }
+            },
+            {
+                "canonical_id": "16990703",
+                "original_id": "1699-07-03",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "1699, julio, 3"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "josé_manuel_bolero_y_muñoz",
+                "predicado": "PETIÓ",
+                "objeto": "principado"
+            },
+            {
+                "sujeto": "baltasar_de_caso_orlé",
+                "predicado": "PETIÓ",
+                "objeto": "infiesto"
+            },
+            {
+                "sujeto": "luis_de_valdés",
+                "predicado": "PETIÓ",
+                "objeto": "principado"
+            },
+            {
+                "sujeto": "pedro_del_pozo",
+                "predicado": "PETIÓ",
+                "objeto": "consejo_real"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "diego_de_ayala",
+                "original_id": "Don Diego de Ayala",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Diego de Ayala"
+                }
+            },
+            {
+                "canonical_id": "josé_de_toro_escajadillo",
+                "original_id": "Don José de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don José de Toro Escajadillo",
+                    "cargo": "depositario general"
+                }
+            },
+            {
+                "canonical_id": "manuel_arias",
+                "original_id": "Fray Manuel Arias",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don fray Manuel Arias",
+                    "titulo": "presidente",
+                    "cargo": "del Consejo de Castilla"
+                }
+            },
+            {
+                "canonical_id": "lena",
+                "original_id": "Lena",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Lena",
+                    "subtipo": "Concejo"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "josé_de_toro_escajadillo",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "depositario_general"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "carlos_ii",
+                "original_id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Carlos II"
+                }
+            },
+            {
+                "canonical_id": "manuel_arias",
+                "original_id": "don fray Manuel Arias",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don fray Manuel Arias",
+                    "titulo": "presidente del Consejo de Castilla"
+                }
+            },
+            {
+                "canonical_id": "duque_de_anjou",
+                "original_id": "duque de Anjou",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "duque de Anjou"
+                }
+            },
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Blasco de Orozco",
+                    "cargo": "gobernador"
+                }
+            },
+            {
+                "canonical_id": "rafael_sáenz_maza",
+                "original_id": "Rafael Sáenz Maza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rafael Sáenz Maza",
+                    "cargo": "secretario del Rey"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "manuel_arias",
+                "predicado": "NOTIFICÓ",
+                "objeto": "duque_de_anjou"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "sáenz_maza",
+                "original_id": "Sáenz Maza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Sáenz Maza",
+                    "titulo": "secretario del Rey"
+                }
+            },
+            {
+                "canonical_id": "rodrigo_manuel_manrique_de_lara",
+                "original_id": "Rodrigo Manuel Manrique de Lara",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rodrigo Manuel Manrique de Lara",
+                    "titulo": "conde de Frigiliana"
+                }
+            },
+            {
+                "canonical_id": "francisco_casimiro_pimentel",
+                "original_id": "Francisco Casimiro Pimentel",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Francisco Casimiro Pimentel",
+                    "titulo": "conde de Benavente"
+                }
+            },
+            {
+                "canonical_id": "rafael_sáenz_maza",
+                "original_id": "Rafael Sáenz Maza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rafael Sáenz Maza",
+                    "titulo": "secretario real y del Consejo"
+                }
+            },
+            {
+                "canonical_id": "manuel_arias",
+                "original_id": "Fray Manuel Arias",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Fray Manuel Arias",
+                    "cargo": "presidente de Castilla"
+                }
+            },
+            {
+                "canonical_id": "fernando_queipo_de_llano_y_valdés",
+                "original_id": "Fernando Queipo de Llano y Valdés",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Fernando Queipo de Llano y Valdés",
+                    "titulo": "conde de Toreno"
+                }
+            },
+            {
+                "canonical_id": "fernando_león_falcón",
+                "original_id": "Fernando León Falcón",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Fernando León Falcón",
+                    "cargo": "teniente de alférez mayor del Principado de Asturias"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            },
+            {
+                "canonical_id": "cangas_del_narcea",
+                "original_id": "Cangas del Narcea",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Cangas del Narcea"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            },
+            {
+                "canonical_id": "junta_de_diputación",
+                "original_id": "Junta de Diputación",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta de Diputación"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "sáenz_maza",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "rodrigo_manuel_manrique_de_lara"
+            },
+            {
+                "sujeto": "sáenz_maza",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "francisco_casimiro_pimentel"
+            },
+            {
+                "sujeto": "rafael_sáenz_maza",
+                "predicado": "TRATÓ_SOBRE",
+                "objeto": "manuel_arias"
+            },
+            {
+                "sujeto": "fernando_queipo_de_llano_y_valdés",
+                "predicado": "NOMBRÓ",
+                "objeto": "fernando_león_falcón"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Blasco de Orozco",
+                    "cargo": "Corregidor"
+                }
+            },
+            {
+                "canonical_id": "carlos_ii",
+                "original_id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Carlos II",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "sala_capitular_de_la_catedral",
+                "original_id": "Sala Capitular de la Catedral",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Sala Capitular de la Catedral",
+                    "subtipo": "Parroquia"
+                }
+            },
+            {
+                "canonical_id": "cuarto_de_despacho_del_gobernador",
+                "original_id": "Cuarto de despacho del gobernador",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Cuarto de despacho del gobernador"
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "carlos_ii"
+            },
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "junta_general"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "carlos_ii",
+                "original_id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Carlos II",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "blasco_de_orozco",
+                "original_id": "Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Blasco de Orozco"
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "carlos_ii",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "blasco_de_orozco"
+            },
+            {
+                "sujeto": "blasco_de_orozco",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "junta_general"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "manuel_arias_y_porres",
+                "original_id": "don fray Manuel Arias y Porres",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don fray Manuel Arias y Porres"
+                }
+            },
+            {
+                "canonical_id": "carlos_ii",
+                "original_id": "Carlos II",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Carlos II"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "rodrigo_manuel_manrique_de_lara",
+                "original_id": "don Rodrigo Manuel Manrique de Lara",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Rodrigo Manuel Manrique de Lara",
+                    "titulo": "conde"
+                }
+            },
+            {
+                "canonical_id": "francisco_casimiro_pimentel",
+                "original_id": "don Francisco Casimiro Pimentel",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Francisco Casimiro Pimentel",
+                    "titulo": "conde"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            },
+            {
+                "canonical_id": "principado",
+                "original_id": "Principado",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Principado"
+                }
+            },
+            {
+                "canonical_id": "consejo_de_castilla",
+                "original_id": "Consejo de Castilla",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Consejo de Castilla"
+                }
+            },
+            {
+                "canonical_id": "diputación",
+                "original_id": "Diputación",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Diputación"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "manuel_arias_y_porres",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "presidente_del_consejo_de_castilla"
+            },
+            {
+                "sujeto": "manuel_arias_y_porres",
+                "predicado": "NOTIFICÓ",
+                "objeto": "la_muerte_de_carlos_ii"
+            },
+            {
+                "sujeto": "manuel_arias_y_porres",
+                "predicado": "DECLARÓ",
+                "objeto": "a_felipe_v_como_sucesor_de_carlos_ii"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "fernando_ii_de_aragón",
+                "original_id": "Fernando II de Aragón",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Fernando II de Aragón"
+                }
+            },
+            {
+                "canonical_id": "reino_de_navarra",
+                "original_id": "Reino de Navarra",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Reino de Navarra",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            },
+            {
+                "canonical_id": "11_de_mayo_de_1512",
+                "original_id": "11 de mayo de 1512",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "11 de mayo de 1512"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "fernando_ii_de_aragón",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "reino_de_navarra"
+            },
+            {
+                "sujeto": "fernando_ii_de_aragón",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "junta_general"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Don Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Juan Blasco de Orozco"
+                }
+            },
+            {
+                "canonical_id": "joseph_de_uriarte_ysunza",
+                "original_id": "Don Joseph de Uriarte Ysunza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Joseph de Uriarte Ysunza",
+                    "cargo": "Gobernador y capitán a guerra"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            },
+            {
+                "canonical_id": "santa_yglesia_cathedral",
+                "original_id": "Santa Yglesia Cathedral",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Santa Yglesia Cathedral"
+                }
+            },
+            {
+                "canonical_id": "consejo_de_su_magestad",
+                "original_id": "Consejo de Su Magestad",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Consejo de Su Magestad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "joseph_de_uriarte_ysunza",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobernador_y_capitán_a_guerra"
+            },
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "FUE_ELECTO",
+                "objeto": "gobernador_del_prinzipado"
+            },
+            {
+                "sujeto": "joseph_de_uriarte_ysunza",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "1r_juntta_general"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "sagrado",
+                "original_id": "Sagrado",
+                "tipo": "ConceptoClave",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "lope_ruyz_de_junco",
+                "original_id": "don Lope Ruyz de Junco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Lope Ruyz de Junco"
+                }
+            },
+            {
+                "canonical_id": "pedro_duque_de_estrada",
+                "original_id": "don Pedro Duque de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Pedro Duque de Estrada"
+                }
+            },
+            {
+                "canonical_id": "juan_francisco_de_rivero_y_cienfuegos",
+                "original_id": "don Juan Francisco de Rivero y Cienfuegos",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Juan Francisco de Rivero y Cienfuegos"
+                }
+            },
+            {
+                "canonical_id": "juan_antonio_navia_osorio_y_argüelles",
+                "original_id": "don Juan Antonio Navia Osorio y Argüelles",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Juan Antonio Navia Osorio y Argüelles"
+                }
+            },
+            {
+                "canonical_id": "marqués_de_santa_cruz_de_marzenado",
+                "original_id": "marqués de Santa Cruz de Marzenado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "marqués de Santa Cruz de Marzenado",
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "canonical_id": "fernando_de_valdés_hevia_y_casso",
+                "original_id": "don Fernando de Valdés Hevia y Casso",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Fernando de Valdés Hevia y Casso"
+                }
+            },
+            {
+                "canonical_id": "bartholomé_de_argüelles",
+                "original_id": "don Bartholomé de Argüelles",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Bartholomé de Argüelles"
+                }
+            },
+            {
+                "canonical_id": "joseph_de_junco_y_posada",
+                "original_id": "don Joseph de Junco y Posada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Joseph de Junco y Posada"
+                }
+            },
+            {
+                "canonical_id": "gaspar_de_jove_bernardo",
+                "original_id": "don Gaspar de Jove Bernardo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Gaspar de Jove Bernardo"
+                }
+            },
+            {
+                "canonical_id": "gregorio_de_jovellanos",
+                "original_id": "don Gregorio de Jovellanos",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Gregorio de Jovellanos"
+                }
+            },
+            {
+                "canonical_id": "sancho_de_miranda_ponze_de_león_marqués_de_baldecarzana",
+                "original_id": "don Sancho de Miranda Ponze de León marqués de Baldecarzana",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Sancho de Miranda Ponze de León",
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "canonical_id": "bartholomé_francisco_dasmarinas",
+                "original_id": "don Bartholomé Francisco Dasmarinas",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Bartholomé Francisco Dasmarinas"
+                }
+            },
+            {
+                "canonical_id": "lope_josephe_de_argüelles_quiñones",
+                "original_id": "don Lope Josephe de Argüelles Quiñones",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Lope Josephe de Argüelles Quiñones"
+                }
+            },
+            {
+                "canonical_id": "clemente_de_vigil_hevia_y_caso",
+                "original_id": "don Clemente de Vigil Hevia y Caso",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Clemente de Vigil Hevia y Caso"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "sagrado",
+                "predicado": "MANIFESTÓ",
+                "objeto": "reales_títulos_y_despachos"
+            },
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "ENTREGÓ",
+                "objeto": "reales_títulos_y_despachos"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "carlos",
+                "original_id": "Don Carlos",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Carlos"
+                }
+            },
+            {
+                "canonical_id": "aragón",
+                "original_id": "Aragón",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Aragón",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "castilla",
+                "original_id": "Castilla",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Castilla",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "león",
+                "original_id": "León",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "León",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "nabarra",
+                "original_id": "Nabarra",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Nabarra",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "hierusalén",
+                "original_id": "Hierusalén",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Hierusalén",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "toledo",
+                "original_id": "Toledo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Toledo",
+                    "subtipo": ""
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "córdoba",
+                "original_id": "Córdoba",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Córdoba",
+                    "subtipo": ""
+                }
+            },
+            {
+                "canonical_id": "córzega",
+                "original_id": "Córzega",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Córzega",
+                    "subtipo": ""
+                }
+            },
+            {
+                "canonical_id": "murzia",
+                "original_id": "Murzia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Murzia",
+                    "subtipo": ""
+                }
+            },
+            {
+                "canonical_id": "jaén",
+                "original_id": "Jaén",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Jaén",
+                    "subtipo": ""
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "carlos",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "governador"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XI (1700-1704).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "josefina_velasco_rozado",
+                "original_id": "Josefina VELASCO ROZADO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Josefina VELASCO ROZADO"
+                }
+            },
+            {
+                "canonical_id": "marcelino_marcos_líndez",
+                "original_id": "Marcelino Marcos Líndez",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Marcelino Marcos Líndez"
+                }
+            },
+            {
+                "canonical_id": "jeniffer_fernández_gonzález",
+                "original_id": "Jeniffer FERNÁNDEZ GONZÁLEZ",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Jeniffer FERNÁNDEZ GONZÁLEZ"
+                }
+            },
+            {
+                "canonical_id": "belén_garcía_alonso",
+                "original_id": "Belén GARCÍA ALONSO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Belén GARCÍA ALONSO"
+                }
+            },
+            {
+                "canonical_id": "felipe_robles_lópez",
+                "original_id": "Felipe ROBLES LÓPEZ",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe ROBLES LÓPEZ"
+                }
+            },
+            {
+                "canonical_id": "rosalía_sandoval_caballero",
+                "original_id": "Rosalía SANDOVAL CABALLERO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rosalía SANDOVAL CABALLERO"
+                }
+            },
+            {
+                "canonical_id": "junta_general_del_principado_de_asturias",
+                "original_id": "Junta General del Principado de Asturias",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General del Principado de Asturias"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "josefina_velasco_rozado",
+                "predicado": "EDICIÓN_A_CARGO_DE",
+                "objeto": "junta_general_del_principado_de_asturias"
+            },
+            {
+                "sujeto": "marcelino_marcos_líndez",
+                "predicado": "FUE_NOMBRADO_PRESIDENTE",
+                "objeto": "junta_general_del_principado_de_asturias"
+            }
+        ],
+        "metadata": {
+            "source_page": 4,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "juan_santos_de_san_pedro",
+                "original_id": "Juan Santos de San Pedro",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Santos de San Pedro",
+                    "cargo": "Corregidor del Principado de Asturias",
+                    "titulo": "Don"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "buen_retiro",
+                "original_id": "Buen Retiro",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Buen Retiro"
+                }
+            },
+            {
+                "canonical_id": "real_audiencia_y_chancillería_de_valladolid",
+                "original_id": "Real Audiencia y Chancillería de Valladolid",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Real Audiencia y Chancillería de Valladolid"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "NOMBRÓ",
+                "objeto": "juan_santos_de_san_pedro"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "real_provisión_de_felipe_v_al_concejo_de_oviedo"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "NOMBRÓ",
+                "objeto": "juan_santos_de_san_pedro_capitán_a_guerra_del_principado"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "real_cédula_de_felipe_v_a_la_real_audiencia_y_chancillería_de_valladolid"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "juan_santos_de_san_pedro",
+                "original_id": "Juan Santos de San Pedro",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Santos de San Pedro",
+                    "cargo": "gobernador del Principado"
+                }
+            },
+            {
+                "canonical_id": "bernardo_de_zarandona_belarrinaga",
+                "original_id": "Bernardo de Zarandona Belarrinaga",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Bernardo de Zarandona Belarrinaga",
+                    "cargo": "secretario la Real Audiencia y Chancillería de Valladolid"
+                }
+            },
+            {
+                "canonical_id": "real_audiencia_y_chancillería_de_valladolid",
+                "original_id": "Real Audiencia y Chancillería de Valladolid",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Real Audiencia y Chancillería de Valladolid"
+                }
+            },
+            {
+                "canonical_id": "buen_retiro",
+                "original_id": "Buen Retiro",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Buen Retiro",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "valladolid",
+                "original_id": "Valladolid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Valladolid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "juan_santos_de_san_pedro"
+            },
+            {
+                "sujeto": "bernardo_de_zarandona_belarrinaga",
+                "predicado": "DA_TESTIMONIO",
+                "objeto": "juramento_hecho_por_juan_santos_de_san_pedro"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "d_pedro_cachupín",
+                "original_id": "D. Pedro Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "D. Pedro Cachupín"
+                }
+            },
+            {
+                "canonical_id": "reina",
+                "original_id": "Reina",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Reina"
+                }
+            },
+            {
+                "canonical_id": "junta_de_diputación_del_principado",
+                "original_id": "Junta de Diputación del Principado",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta de Diputación del Principado"
+                }
+            },
+            {
+                "canonical_id": "rapariegos",
+                "original_id": "Rapariegos",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Rapariegos"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "d_pedro_cachupín",
+                "predicado": "FUE_GOBERNADOR_DEL",
+                "objeto": "principado_d"
+            },
+            {
+                "sujeto": "d_pedro_cachupín",
+                "predicado": "ORDENÓ",
+                "objeto": "auto_de_regulación"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "clemente_vigil_hevia",
+                "original_id": "Don Clemente Vigil Hevia",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Clemente Vigil Hevia"
+                }
+            },
+            {
+                "canonical_id": "sebastián_bernardo",
+                "original_id": "Don Sebastián Bernardo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Sebastián Bernardo"
+                }
+            },
+            {
+                "canonical_id": "fernando_moncada_aragón_duque_de_san_juan",
+                "original_id": "Fernando Moncada Aragón, duque de San Juan",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Fernando Moncada Aragón, duque de San Juan"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "oviedo_a",
+                "original_id": "Oviedo A.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "clemente_vigil_hevia",
+                "predicado": "PROPOSIÓN",
+                "objeto": "sebastián_bernardo"
+            },
+            {
+                "sujeto": "sebastián_bernardo",
+                "predicado": "PEDIR",
+                "objeto": "cien_soldados"
+            },
+            {
+                "sujeto": "fernando_moncada_aragón_duque_de_san_juan",
+                "predicado": "PEDIR",
+                "objeto": "cien_soldados"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "INFORMAR",
+                "objeto": "nacimiento_del_príncipe_luis"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "juan_de_malleza_y_prado",
+                "original_id": "Juan de Malleza y Prado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan de Malleza y Prado"
+                }
+            },
+            {
+                "canonical_id": "consejo_de_castilla",
+                "original_id": "Consejo de Castilla",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Consejo de Castilla"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Villa"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "RECOMENDÓ",
+                "objeto": "juan_de_malleza_y_prado"
+            },
+            {
+                "sujeto": "consejo_de_castilla",
+                "predicado": "CUMPLIMENTÓ",
+                "objeto": "felipe_v"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "juan_de_malleza_y_prado",
+                "original_id": "Juan de Malleza y Prado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan de Malleza y Prado"
+                }
+            },
+            {
+                "canonical_id": "principado",
+                "original_id": "Principado",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "álvaro_de_navia_osorio_vizconde_de_puerto",
+                "original_id": "don Álvaro de Navia Osorio, vizconde de Puerto",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Álvaro de Navia Osorio, vizconde de Puerto"
+                }
+            },
+            {
+                "canonical_id": "francisco_ronquillo",
+                "original_id": "Francisco Ronquillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Francisco Ronquillo"
+                }
+            },
+            {
+                "canonical_id": "consejo_de_castilla",
+                "original_id": "Consejo de Castilla",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            },
+            {
+                "canonical_id": "barbastro",
+                "original_id": "Barbastro",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Barbastro"
+                }
+            },
+            {
+                "canonical_id": "oviedo_a",
+                "original_id": "Oviedo A",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo A"
+                }
+            },
+            {
+                "canonical_id": "lérida",
+                "original_id": "Lérida",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Lérida"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "juan_de_malleza_y_prado",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "principado"
+            },
+            {
+                "sujeto": "francisco_ronquillo",
+                "predicado": "AGRADECÍO",
+                "objeto": "principado"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "junta_de_diputación",
+                "original_id": "Junta De Diputación",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "vidal_martín_don",
+                "original_id": "Vidal Martín, don",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Vidal Martín, don"
+                }
+            },
+            {
+                "canonical_id": "antonio_de_rivero_don",
+                "original_id": "Antonio de Rivero, don",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Antonio de Rivero, don"
+                }
+            },
+            {
+                "canonical_id": "miguel_de_la_moneda",
+                "original_id": "Miguel de la Moneda",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Miguel de la Moneda"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "vidal_martín_don",
+                "predicado": "RECOMENDÓ",
+                "objeto": "antonio_de_rivero_don"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "tomás_moreno_pacheco_de_zúñiga",
+                "original_id": "Tomás Moreno Pacheco de Zúñiga",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Tomás Moreno Pacheco de Zúñiga",
+                    "cargo": "superintendente general de guerra"
+                }
+            },
+            {
+                "canonical_id": "lorenzo_amengual",
+                "original_id": "Lorenzo Amengual",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Lorenzo Amengual",
+                    "titulo": "Obispo",
+                    "cargo": "Director de la Real Hacienda"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "oviedo_a",
+                "original_id": "Oviedo A.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo A.",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "león",
+                "original_id": "León",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "León",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "tomás_moreno_pacheco_de_zúñiga",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "carta"
+            },
+            {
+                "sujeto": "lorenzo_amengual",
+                "predicado": "TRATÓ_SOBRE",
+                "objeto": "d_tomás_moreno_pacheco_de_zúñiga"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "EXPEDÍO",
+                "objeto": "real_órdenes"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "lorenzo_amengual",
+                "original_id": "Lorenzo Amengual",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Lorenzo Amengual",
+                    "titulo": "Obispo de Gironda"
+                }
+            },
+            {
+                "canonical_id": "tomás_moreno_pacheco_de_zúñiga",
+                "original_id": "Tomás Moreno Pacheco de Zúñiga",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Tomás Moreno Pacheco de Zúñiga"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "real_cédula"
+            },
+            {
+                "sujeto": "lorenzo_amengual",
+                "predicado": "ESCRIBIÓ",
+                "objeto": "carta"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "álbaro",
+                "original_id": "Don Álbaro",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Señor don Álbaro"
+                }
+            },
+            {
+                "canonical_id": "cueto",
+                "original_id": "Cueto",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Cueto"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "aprile_22_de_740",
+                "original_id": "Aprile 22 de 740",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "Aprile 22 de 740"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "álbaro",
+                "predicado": "NECESITA",
+                "objeto": "libro_de_diputtaziones"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XIII (1707-1712).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "luz_sol",
+                "original_id": "Luz Sol",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Luz Sol"
+                }
+            },
+            {
+                "canonical_id": "josefina_velasco_rozado",
+                "original_id": "Josefina Velasco Rozado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Josefina Velasco Rozado"
+                }
+            },
+            {
+                "canonical_id": "m_josefa_sanz_fuentes",
+                "original_id": "Mª Josefa Sanz Fuentes",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Mª Josefa Sanz Fuentes"
+                }
+            },
+            {
+                "canonical_id": "rosalía_sandoval_caballero",
+                "original_id": "Rosalía Sandoval Caballero",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rosalía Sandoval Caballero"
+                }
+            },
+            {
+                "canonical_id": "jeniffer_fernández_gonzález",
+                "original_id": "Jeniffer Fernández González",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Jeniffer Fernández González"
+                }
+            },
+            {
+                "canonical_id": "belén_garcía_alonso",
+                "original_id": "Belén García Alonso",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Belén García Alonso"
+                }
+            },
+            {
+                "canonical_id": "felipe_robles_lópez",
+                "original_id": "Felipe Robles López",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe Robles López"
+                }
+            },
+            {
+                "canonical_id": "marcelino_marcos_líndez",
+                "original_id": "Marcelino Marcos Líndez",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Marcelino Marcos Líndez"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "luz_sol",
+                "predicado": "©",
+                "objeto": "junta_general_del_principado_de_asturias"
+            }
+        ],
+        "metadata": {
+            "source_page": 4,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "d_pedro_cachupín",
+                "original_id": "D. Pedro Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "D. Pedro Cachupín",
+                    "cargo": "Corregidor del Principado de Asturias",
+                    "titulo": "Gobernador"
+                }
+            },
+            {
+                "canonical_id": "jerónimo_de_cieza",
+                "original_id": "Don Jerónimo de Cieza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Jerónimo de Cieza",
+                    "cargo": "Escribano de Cámara de la Real Chancillería de Valladolid"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "real_chancillería_de_valladolid",
+                "original_id": "Real Chancillería de Valladolid",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Real Chancillería de Valladolid"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "d_pedro_cachupín"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "jerónimo_de_cieza",
+                "original_id": "Don Jerónimo de Cieza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Jerónimo de Cieza"
+                }
+            },
+            {
+                "canonical_id": "pedro_de_cachupín",
+                "original_id": "Don Pedro de Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro de Cachupín",
+                    "cargo": "Gobernador"
+                }
+            },
+            {
+                "canonical_id": "juan_de_corral",
+                "original_id": "Don Juan de Corral",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Juan de Corral",
+                    "cargo": "Escribano de Cámara"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "conde_de_montellano",
+                "original_id": "Conde de Montellano",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Conde de Montellano",
+                    "titulo": "Conde"
+                }
+            },
+            {
+                "canonical_id": "valladolid",
+                "original_id": "Valladolid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Valladolid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "plasencia",
+                "original_id": "Plasencia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Plasencia",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "jerónimo_de_cieza",
+                "predicado": "DA_TESTIMONIO_DEL_JURAMENTO",
+                "objeto": "pedro_de_cachupín"
+            },
+            {
+                "sujeto": "juan_de_corral",
+                "predicado": "DA_PRÓRROGA",
+                "objeto": "pedro_cachupín"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "NOMBRA",
+                "objeto": "pedro_cachupín"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "PIDE_PRÓRROGA",
+                "objeto": "principado"
+            },
+            {
+                "sujeto": "conde_de_montellano",
+                "predicado": "ESCRIBE_CARTA",
+                "objeto": "pedro_cachupín"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "marqués_de_narros",
+                "original_id": "Marqués de Narros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Marqués de Narros"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "marqués_de_narros",
+                "predicado": "ESCRIBIÓ",
+                "objeto": "carta"
+            },
+            {
+                "sujeto": "carta",
+                "predicado": "FUE_ENVIADA",
+                "objeto": "madrid"
+            },
+            {
+                "sujeto": "marqués_de_narros",
+                "predicado": "TRATÓ_SOBRE",
+                "objeto": "impuesto_de_cuatro_reales_en_fanega_de_sal_y_a_las_proposiciones_sobre_extracción_de_granos_fábrica_de_puentes_y_la_recluta_de_los_doscientos_hombres"
+            },
+            {
+                "sujeto": "marqués_de_narros",
+                "predicado": "ESCRIBIÓ",
+                "objeto": "auto_de_regulación"
+            },
+            {
+                "sujeto": "carta",
+                "predicado": "FUE_ENVIADA",
+                "objeto": "oviedo"
+            },
+            {
+                "sujeto": "marqués_de_narros",
+                "predicado": "TRATÓ_SOBRE",
+                "objeto": "auto_de_regulación_y_aprobación_de_dichas_proposiciones"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "principado",
+                "original_id": "Principado",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "joaquín_de_toro_escajadillo",
+                "original_id": "Joaquín de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Joaquín de Toro Escajadillo"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "principado"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "joseph_de_toro_escajadillo",
+                "original_id": "don Joseph de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Joseph de Toro Escajadillo",
+                    "titulo": null,
+                    "cargo": null
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V",
+                    "titulo": "Rey",
+                    "cargo": null
+                }
+            },
+            {
+                "canonical_id": "álvaro_navia_osorio",
+                "original_id": "Álvaro Navia Osorio",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Álvaro Navia Osorio",
+                    "titulo": "Coronel",
+                    "cargo": null
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "JUNTA GENERAL",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "JUNTA GENERAL"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": null
+                }
+            },
+            {
+                "canonical_id": "b",
+                "original_id": "B",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "B",
+                    "subtipo": null
+                }
+            },
+            {
+                "canonical_id": "a",
+                "original_id": "A",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "A",
+                    "subtipo": null
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "joseph_de_toro_escajadillo",
+                "predicado": "DEPOSITARIO_GENERAL",
+                "objeto": "principado_de_asturias"
+            },
+            {
+                "sujeto": "junta_general",
+                "predicado": "REUNIÓN",
+                "objeto": "oviedo_a_fol_66_r_134_r"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "EMITIÓ",
+                "objeto": "cédula_real_de_felipe_v_al_principado_de_asturias_y_su_corregidor"
+            },
+            {
+                "sujeto": "álvaro_navia_osorio",
+                "predicado": "REGIMENTO",
+                "objeto": "regimiento_del_coronel_álvaro_navia_osorio"
+            },
+            {
+                "sujeto": "junta_general",
+                "predicado": "EMITIÓ",
+                "objeto": "auto_de_regulación_sobre_que_los_poderes_habientes_de_la_junta_no_salgan_de_la_ciudad_so_pena_de_dos_mil_ducados"
+            },
+            {
+                "sujeto": "joseph_de_toro_escajadillo",
+                "predicado": "NOTIFICÓ",
+                "objeto": "notificación_de_dicho_auto_y_nombramiento_a_los_poderes_habientes_de_la_junta_excepto_al_marqués_de_camposagrado"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "qués_de_camposagrado",
+                "original_id": "qués de Camposagrado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "qués de Camposagrado"
+                }
+            },
+            {
+                "canonical_id": "duque_de_montellano",
+                "original_id": "duque de Montellano",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "duque de Montellano"
+                }
+            },
+            {
+                "canonical_id": "francisco_de_castrejón",
+                "original_id": "don Francisco de Castrejón",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Francisco de Castrejón"
+                }
+            },
+            {
+                "canonical_id": "josé_carrillo",
+                "original_id": "don José Carrillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don José Carrillo"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            },
+            {
+                "canonical_id": "1705_marzo_30",
+                "original_id": "1705, marzo, 30",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "1705, marzo, 30"
+                }
+            },
+            {
+                "canonical_id": "1705_abril_22",
+                "original_id": "1705, abril, 22",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "1705, abril, 22"
+                }
+            },
+            {
+                "canonical_id": "1705_abril_24",
+                "original_id": "1705, abril, 24",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "1705, abril, 24"
+                }
+            },
+            {
+                "canonical_id": "real_cédula_de_felipe_v",
+                "original_id": "Real cédula de Felipe V",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Real cédula"
+                }
+            },
+            {
+                "canonical_id": "carta_del_duque_de_montellano",
+                "original_id": "Carta del duque de Montellano",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Carta"
+                }
+            },
+            {
+                "canonical_id": "otra_carta_del_duque_de_montellano",
+                "original_id": "Otra carta del duque de Montellano",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Carta"
+                }
+            },
+            {
+                "canonical_id": "carta_de_francisco_de_castrejón",
+                "original_id": "Carta de don Francisco de Castrejón",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Carta"
+                }
+            },
+            {
+                "canonical_id": "carta_de_josé_carrillo",
+                "original_id": "Carta de don José Carrillo",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Carta"
+                }
+            },
+            {
+                "canonical_id": "recluta_y_donativo",
+                "original_id": "Recluta y donativo",
+                "tipo": "ConceptoClave",
+                "atributos": {
+                    "tema": "Recluta y donativo"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "real_cédula_de_felipe_v"
+            },
+            {
+                "sujeto": "duque_de_montellano",
+                "predicado": "RECLAMÓ",
+                "objeto": "otra_carta_del_duque_de_montellano"
+            },
+            {
+                "sujeto": "francisco_de_castrejón",
+                "predicado": "REAFIRMÓ",
+                "objeto": "carta_de_francisco_de_castrejón"
+            },
+            {
+                "sujeto": "josé_carrillo",
+                "predicado": "REAFIRMÓ",
+                "objeto": "carta_de_josé_carrillo"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "tomás_de_zuazo_y_aresti",
+                "original_id": "Don Tomás de Zuazo y Aresti",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Tomás de Zuazo y Aresti",
+                    "cargo": "Secretario real y escribano de Cámara"
+                }
+            },
+            {
+                "canonical_id": "matías_vello_de_taibo",
+                "original_id": "Don Matías Vello de Taibo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Matías Vello de Taibo"
+                }
+            },
+            {
+                "canonical_id": "gregorio_gonzález_de_candamo",
+                "original_id": "Don Gregorio González de Candamo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Gregorio González de Candamo"
+                }
+            },
+            {
+                "canonical_id": "juan_crisóstomo_de_la_pradilla",
+                "original_id": "Juan Crisóstomo de la Pradilla",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Crisóstomo de la Pradilla",
+                    "cargo": "Fiscal del Consejo Real"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "principado",
+                "original_id": "Principado",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "consejo_real",
+                "original_id": "Consejo Real",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Consejo Real"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "tomás_de_zuazo_y_aresti",
+                "predicado": "CERTIFICÓ",
+                "objeto": "la_presentación_de_una_petición_en_nombre_del_principado"
+            },
+            {
+                "sujeto": "matías_vello_de_taibo",
+                "predicado": "PRESENTÓ",
+                "objeto": "una_petición_para_que_se_acepte_a_gregorio_gonzález_de_candamo_como_su_agente_en_la_corte"
+            },
+            {
+                "sujeto": "principado",
+                "predicado": "NOMBRÓ",
+                "objeto": "gregorio_gonzález_de_candamo_como_su_agente_en_la_corte"
+            },
+            {
+                "sujeto": "juan_crisóstomo_de_la_pradilla",
+                "predicado": "REMITIÓ",
+                "objeto": "la_petición_y_acuerdos_al_consejo_real_para_su_aprobación"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_cachupín",
+                "original_id": "Pedro Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Pedro Cachupín"
+                }
+            },
+            {
+                "canonical_id": "oidor_de_valladolid",
+                "original_id": "Oidor de Valladolid",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Oidor de Valladolid"
+                }
+            },
+            {
+                "canonical_id": "laredo",
+                "original_id": "Laredo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Laredo",
+                    "subtipo": "Villa"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            },
+            {
+                "canonical_id": "junta_general_de_mayo_de_1704",
+                "original_id": "Junta General de mayo de 1704",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General de mayo de 1704"
+                }
+            },
+            {
+                "canonical_id": "chancillería_de_valladolid",
+                "original_id": "Chancillería de Valladolid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Chancillería de Valladolid"
+                }
+            },
+            {
+                "canonical_id": "real_provisión_de_felipe_v",
+                "original_id": "Real provisión de Felipe V",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Real Provisión"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_cachupín",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "junta_general_de_mayo_de_1704"
+            },
+            {
+                "sujeto": "oidor_de_valladolid",
+                "predicado": "ERA_VINCULADO_A",
+                "objeto": "la_hidalguía_cántabra"
+            },
+            {
+                "sujeto": "pedro_cachupín",
+                "predicado": "PRESIDIÓ",
+                "objeto": "junta_de_diputación"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Blasco de Orozco"
+                }
+            },
+            {
+                "canonical_id": "pedro_cachupín",
+                "original_id": "Pedro Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Pedro Cachupín"
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            },
+            {
+                "canonical_id": "corregimiento",
+                "original_id": "Corregimiento",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Corregimiento"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "CEDIÓ",
+                "objeto": "pedro_cachupín"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "cachupín",
+                "original_id": "Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Cachupín"
+                }
+            },
+            {
+                "canonical_id": "escribano",
+                "original_id": "escribano",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "escribano",
+                    "cargo": "escribano"
+                }
+            },
+            {
+                "canonical_id": "toreno",
+                "original_id": "Toreno",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Toreno"
+                }
+            },
+            {
+                "canonical_id": "camposagrado",
+                "original_id": "Camposagrado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Camposagrado"
+                }
+            },
+            {
+                "canonical_id": "santa_cruz_del_marcenado",
+                "original_id": "Santa Cruz del Marcenado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Santa Cruz del Marcenado"
+                }
+            },
+            {
+                "canonical_id": "valdecarzana",
+                "original_id": "Valdecarzana",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Valdecarzana"
+                }
+            },
+            {
+                "canonical_id": "inclán_arango",
+                "original_id": "Inclán Arango",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Inclán Arango"
+                }
+            },
+            {
+                "canonical_id": "navia_osorio",
+                "original_id": "Navia Osorio",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Navia Osorio"
+                }
+            },
+            {
+                "canonical_id": "san_pedro_mártir",
+                "original_id": "San Pedro Mártir",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "San Pedro Mártir",
+                    "subtipo": "Reino"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "cachupín",
+                "predicado": "EXIBIÓ_ANTE",
+                "objeto": "junta"
+            },
+            {
+                "sujeto": "escribano",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "junta"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "fernando_ii",
+                "original_id": "Fernando II",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Fernando II"
+                }
+            },
+            {
+                "canonical_id": "reino_de_león",
+                "original_id": "Reino de León",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Reino de León",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "villa_de_madrid",
+                "original_id": "Villa de Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Villa de Madrid",
+                    "subtipo": "Villa"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "fernando_ii",
+                "predicado": "REINÓ",
+                "objeto": "reino_de_león"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_cachupín",
+                "original_id": "Pedro Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Pedro Cachupín",
+                    "titulo": "Señor"
+                }
+            },
+            {
+                "canonical_id": "juan_blasco_de_orozco",
+                "original_id": "Juan Blasco de Orozco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Juan Blasco de Orozco",
+                    "titulo": "Cavallero del orden de Calatrava",
+                    "cargo": "Gobernador y Capitán a guerra"
+                }
+            },
+            {
+                "canonical_id": "joseph_de_faes",
+                "original_id": "Joseph de Faes",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Joseph de Faes"
+                }
+            },
+            {
+                "canonical_id": "juan_de_ponttigo",
+                "original_id": "Juan de Ponttigo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Juan de Ponttigo"
+                }
+            },
+            {
+                "canonical_id": "oveido",
+                "original_id": "Oveido",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oveido"
+                }
+            },
+            {
+                "canonical_id": "santta_yglesia_catedral",
+                "original_id": "Santta Yglesia Catedral",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Santta Yglesia Catedral"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_cachupín",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobernador_de_este_prinzipado"
+            },
+            {
+                "sujeto": "juan_blasco_de_orozco",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "1r_junta_general"
+            },
+            {
+                "sujeto": "pedro_cachupín",
+                "predicado": "RECEBIÓ_LA_POSESIÓN",
+                "objeto": "gobierno_de_este_prinzipado"
+            },
+            {
+                "sujeto": "joseph_de_faes",
+                "predicado": "CONCURRIÓ_A",
+                "objeto": "1r_junta_general"
+            },
+            {
+                "sujeto": "juan_de_ponttigo",
+                "predicado": "CONCURRIÓ_A",
+                "objeto": "1r_junta_general"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_de_peón_duque_de_eststrada",
+                "original_id": "Don Pedro de Peón Duque de Eststrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro de Peón Duque de Eststrada",
+                    "titulo": "Duque",
+                    "cargo": "Alférez mayor"
+                }
+            },
+            {
+                "canonical_id": "marqués_de_camposagrado",
+                "original_id": "Marqués de Camposagrado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Marqués de Camposagrado"
+                }
+            },
+            {
+                "canonical_id": "pedro_duque_de_estrada",
+                "original_id": "Don Pedro Duque de Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro Duque de Estrada",
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "canonical_id": "lope_ruiz_de_junco",
+                "original_id": "Don Lope Ruiz de Junco",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Lope Ruiz de Junco"
+                }
+            },
+            {
+                "canonical_id": "juan_antonio_navia_osorio_y_argüelles_marqués_de_santta_cruz_de_marzenado",
+                "original_id": "Don Juan Antonio Navia Osorio y Argüelles, Marqués de Santta Cruz de Marzenado",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Juan Antonio Navia Osorio y Argüelles, Marqués de Santta Cruz de Marzenado"
+                }
+            },
+            {
+                "canonical_id": "fernando_de_león_falcón",
+                "original_id": "Don Fernando de León Falcón",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Fernando de León Falcón"
+                }
+            },
+            {
+                "canonical_id": "alonso_valvín",
+                "original_id": "Don Alonso Valvín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Alonso Valvín"
+                }
+            },
+            {
+                "canonical_id": "antonio_de_estrada_ramírez",
+                "original_id": "Don Antonio de Estrada Ramírez",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Antonio de Estrada Ramírez"
+                }
+            },
+            {
+                "canonical_id": "carlos_ramírez",
+                "original_id": "Don Carlos Ramírez",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Carlos Ramírez"
+                }
+            },
+            {
+                "canonical_id": "sancho_ynclán_arango",
+                "original_id": "Don Sancho Ynclán Arango",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Sancho Ynclán Arango"
+                }
+            },
+            {
+                "canonical_id": "fernando_de_ynclán_arango",
+                "original_id": "Don Fernando de Ynclán Arango",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Fernando de Ynclán Arango"
+                }
+            },
+            {
+                "canonical_id": "manuel_álvarez_de_las_asturias_y_nava_conde_de_nava",
+                "original_id": "Don Manuel Álvarez de las Asturias y Nava, Conde de Nava",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Manuel Álvarez de las Asturias y Nava, Conde de Nava",
+                    "titulo": "Conde"
+                }
+            },
+            {
+                "canonical_id": "rodrigo_antonio_de_zienfuegos_y_valdés_casso_vizconde_de_san_pedro_mártir",
+                "original_id": "Don Rodrigo Antonio de Zienfuegos y Valdés Casso, Vizconde de San Pedro Mártir",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Rodrigo Antonio de Zienfuegos y Valdés Casso, Vizconde de San Pedro Mártir",
+                    "titulo": "Vizconde"
+                }
+            },
+            {
+                "canonical_id": "diego_alonso_del_rivero_caballero_del_horden_de_santiago",
+                "original_id": "Don Diego Alonso del Rivero, Caballero del Horden de Santiago",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Diego Alonso del Rivero, Caballero del Horden de Santiago"
+                }
+            },
+            {
+                "canonical_id": "felipe_de_casso_estrada",
+                "original_id": "Don Felipe de Casso Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Felipe de Casso Estrada"
+                }
+            },
+            {
+                "canonical_id": "clemente_vizil_hevia",
+                "original_id": "Don Clemente Vizil Hevia",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Clemente Vizil Hevia"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_de_peón_duque_de_eststrada",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "otros_señores_cavalleros_poderes_havienttes"
+            },
+            {
+                "sujeto": "pedro_cachupín",
+                "predicado": "ENTREGÓ",
+                "objeto": "reales_títulos_y_despachos_que_por_su_magestad"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_cachupín",
+                "original_id": "Don Pedro Cachupín",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro Cachupín"
+                }
+            },
+            {
+                "canonical_id": "dios_le_guarde",
+                "original_id": "Dios le guarde",
+                "tipo": "ConceptoClave",
+                "atributos": {
+                    "tema": "Deidad"
+                }
+            },
+            {
+                "canonical_id": "phelipe",
+                "original_id": "Don Phelipe",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Phelipe"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_cachupín",
+                "predicado": "RECEBIÓ",
+                "objeto": "reales_títulos_y_despachos"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XII (1704-1707).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "josefina_velasco_rozado",
+                "original_id": "Josefina VELASCO ROZADO",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Josefina VELASCO ROZADO"
+                }
+            },
+            {
+                "canonical_id": "marcelino_marcos_líndez",
+                "original_id": "Marcelino Marcos Líndez",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Marcelino Marcos Líndez"
+                }
+            },
+            {
+                "canonical_id": "junta_general_del_principado_de_asturias",
+                "original_id": "Junta General del Principado de Asturias",
+                "tipo": "Organizacion",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "josefina_velasco_rozado",
+                "predicado": "EDICIÓN_A_CARGO_DE",
+                "objeto": "junta_general_del_principado_de_asturias"
+            },
+            {
+                "sujeto": "marcelino_marcos_líndez",
+                "predicado": "ES_PRESIDENTE_DE",
+                "objeto": "junta_general_del_principado_de_asturias"
+            }
+        ],
+        "metadata": {
+            "source_page": 4,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "d_pedro_espinosa_de_los_monteros",
+                "original_id": "D. Pedro Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "D. Pedro Espinosa de los Monteros",
+                    "titulo": "General de los ejércitos"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "d_pedro_espinosa_de_los_monteros",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobernador"
+            },
+            {
+                "sujeto": "felipe_v",
+                "predicado": "ORDENÓ",
+                "objeto": "d_pedro_espinosa_de_los_monteros"
+            },
+            {
+                "sujeto": "miguel_rubín_de_noriega",
+                "predicado": "CERTIFICÓ",
+                "objeto": "juramento_del_título_por_pedro_de_espinosa_de_los_monteros"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_de_espinosa_de_los_monteros",
+                "original_id": "Don Pedro de Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro de Espinosa de los Monteros"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "lorenzo_de_vivanco_angulo",
+                "original_id": "Lorenzo de Vivanco Angulo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Lorenzo de Vivanco Angulo"
+                }
+            },
+            {
+                "canonical_id": "josé_de_grimaldo",
+                "original_id": "José de Grimaldo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "José de Grimaldo"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid"
+                }
+            },
+            {
+                "canonical_id": "asturias",
+                "original_id": "Asturias",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Asturias"
+                }
+            },
+            {
+                "canonical_id": "palacio_de_madrid",
+                "original_id": "Palacio de Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Palacio de Madrid"
+                }
+            },
+            {
+                "canonical_id": "buen_retiro",
+                "original_id": "Buen Retiro",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Buen Retiro"
+                }
+            },
+            {
+                "canonical_id": "carta_de_merced",
+                "original_id": "Carta de merced",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Carta"
+                }
+            },
+            {
+                "canonical_id": "certificación",
+                "original_id": "Certificación",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Certificación"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_de_espinosa_de_los_monteros",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "felipe_v"
+            },
+            {
+                "sujeto": "pedro_de_espinosa_de_los_monteros",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "gobernación_del_principado_de_asturias"
+            },
+            {
+                "sujeto": "lorenzo_de_vivanco_angulo",
+                "predicado": "CONCEDIÓ",
+                "objeto": "pedro_de_espinosa_de_los_monteros"
+            },
+            {
+                "sujeto": "josé_de_grimaldo",
+                "predicado": "COMUNICÓ",
+                "objeto": "pedro_de_espinosa_de_los_monteros"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_espinosa_de_los_monteros",
+                "original_id": "Don Pedro Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro Espinosa de los Monteros",
+                    "cargo": "Gobernador del Principado"
+                }
+            },
+            {
+                "canonical_id": "lucas_gonzález_vallejo",
+                "original_id": "Don Lucas González Vallejo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Lucas González Vallejo",
+                    "titulo": "Abogado de los Reales Consejos"
+                }
+            },
+            {
+                "canonical_id": "miguel_rubín_de_noriega",
+                "original_id": "Don Miguel Rubín de Noriega",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Miguel Rubín de Noriega",
+                    "cargo": "Secretario de cámara del Consejo"
+                }
+            },
+            {
+                "canonical_id": "josé_de_toro_escajadillo",
+                "original_id": "Don José de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don José de Toro Escajadillo"
+                }
+            },
+            {
+                "canonical_id": "buen_retiro",
+                "original_id": "Buen Retiro",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Buen Retiro",
+                    "subtipo": "Villa"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Reino"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "NOMINO",
+                "objeto": "lucas_gonzález_vallejo"
+            },
+            {
+                "sujeto": "miguel_rubín_de_noriega",
+                "predicado": "CERTIFICA",
+                "objeto": "lucas_gonzález_vallejo"
+            }
+        ],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "noticia",
+                "original_id": "Noticia",
+                "tipo": "Documento",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "libro_de_presentación",
+                "original_id": "Libro de Presentación",
+                "tipo": "Documento",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [],
+        "metadata": {
+            "source_page": 5,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "antonio_de_las_rivas_estrada",
+                "original_id": "Antonio de las Rivas Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Antonio de las Rivas Estrada"
+                }
+            },
+            {
+                "canonical_id": "josé_de_toro_escajadillo",
+                "original_id": "don José de Toro Escajadillo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don José de Toro Escajadillo"
+                }
+            },
+            {
+                "canonical_id": "alonso_álvarez_hevia",
+                "original_id": "Alonso Álvarez Hevia",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Alonso Álvarez Hevia"
+                }
+            },
+            {
+                "canonical_id": "tomás_moreno_pacheco_de_zúñiga",
+                "original_id": "Tomás Moreno Pacheco de Zúñiga",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Tomás Moreno Pacheco de Zúñiga"
+                }
+            },
+            {
+                "canonical_id": "oviedo_a",
+                "original_id": "Oviedo A.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid_b",
+                "original_id": "Madrid B.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "antonio_de_las_rivas_estrada",
+                "predicado": "NOTIFICÓ",
+                "objeto": "josé_de_toro_escajadillo"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "alonso_álvarez_hevia",
+                "original_id": "Alonso Álvarez Hevia",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Alonso Álvarez Hevia",
+                    "titulo": "escribano de Su Majestad y mayor del Ayuntamiento"
+                }
+            },
+            {
+                "canonical_id": "tomás_pacheco_de_zúñiga",
+                "original_id": "Tomás Pacheco de Zúñiga",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Tomás Pacheco de Zúñiga"
+                }
+            },
+            {
+                "canonical_id": "isidro_de_la_cueva_marqués_de_bedmar",
+                "original_id": "Isidro de la Cueva, marqués de Bedmar",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "don Isidro de la Cueva, marqués de Bedmar",
+                    "titulo": "primer ministro de la guerra"
+                }
+            },
+            {
+                "canonical_id": "antonio_de_las_rivas_estrada",
+                "original_id": "Antonio de las Rivas Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Antonio de las Rivas Estrada",
+                    "cargo": "escribano de la Gobernación"
+                }
+            },
+            {
+                "canonical_id": "león",
+                "original_id": "León",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "León",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "madrid",
+                "original_id": "Madrid",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Madrid",
+                    "subtipo": "Ciudad"
+                }
+            },
+            {
+                "canonical_id": "junta_de_diputación",
+                "original_id": "Junta de Diputación",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta de Diputación"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "alonso_álvarez_hevia",
+                "predicado": "FIRMA_Y_CONFIRMÓ",
+                "objeto": "la_copia_de_la_carta_orden"
+            },
+            {
+                "sujeto": "tomás_pacheco_de_zúñiga",
+                "predicado": "ORDENÓ",
+                "objeto": "la_carta"
+            },
+            {
+                "sujeto": "isidro_de_la_cueva_marqués_de_bedmar",
+                "predicado": "PREVIENE",
+                "objeto": "se_tengan_prestos_los_222240_escudos"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "junta_de_diputación",
+                "original_id": "JUNTA DE DIPUTACIÓN",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "JUNTA DE DIPUTACIÓN"
+                }
+            },
+            {
+                "canonical_id": "antonio_de_las_rivas_estrada",
+                "original_id": "Antonio de las Rivas Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Antonio de las Rivas Estrada",
+                    "cargo": "escribano"
+                }
+            },
+            {
+                "canonical_id": "manuel_gonzález_colloto",
+                "original_id": "Manuel González Colloto",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Manuel González Colloto",
+                    "cargo": "escribano"
+                }
+            },
+            {
+                "canonical_id": "duque_del_parque",
+                "original_id": "duque del Parque",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "procurador_general",
+                "original_id": "procurador general",
+                "tipo": "Persona",
+                "atributos": {}
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "antonio_de_las_rivas_estrada",
+                "predicado": "HIZO",
+                "objeto": "informe"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "rey",
+                "original_id": "Rey",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Rey",
+                    "titulo": "Rey"
+                }
+            },
+            {
+                "canonical_id": "junta_de_diputación",
+                "original_id": "Junta de Diputación",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta De Diputación"
+                }
+            },
+            {
+                "canonical_id": "diputación",
+                "original_id": "Diputación",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Diputación"
+                }
+            },
+            {
+                "canonical_id": "oviedo_a",
+                "original_id": "Oviedo A.",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "rey",
+                "predicado": "SOLICITÓ",
+                "objeto": "desigualdades_en_el_repartimiento"
+            }
+        ],
+        "metadata": {
+            "source_page": 6,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_espinosa_de_los_monteros",
+                "original_id": "Pedro Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Pedro Espinosa de los Monteros"
+                }
+            },
+            {
+                "canonical_id": "gonzalo_zegrí_de_salazar",
+                "original_id": "Gonzalo Zegrí de Salazar",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Gonzalo Zegrí de Salazar"
+                }
+            },
+            {
+                "canonical_id": "rey",
+                "original_id": "Rey",
+                "tipo": "Persona",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            },
+            {
+                "canonical_id": "asturias",
+                "original_id": "Asturias",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Asturias",
+                    "subtipo": "Provincia"
+                }
+            },
+            {
+                "canonical_id": "castilla",
+                "original_id": "Castilla",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Castilla",
+                    "subtipo": "Reino"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "GOBERNÓ",
+                "objeto": "asturias"
+            },
+            {
+                "sujeto": "gonzalo_zegrí_de_salazar",
+                "predicado": "DESIGNADO_PARA",
+                "objeto": "corregidor"
+            },
+            {
+                "sujeto": "rey",
+                "predicado": "NOMBRÓ",
+                "objeto": "pedro_espinosa_de_los_monteros"
+            },
+            {
+                "sujeto": "junta_general",
+                "predicado": "RECLAMÓ",
+                "objeto": "toga"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_espinosa_de_los_monteros",
+                "original_id": "Pedro Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Pedro Espinosa de los Monteros"
+                }
+            },
+            {
+                "canonical_id": "felipe_v",
+                "original_id": "Felipe V",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Felipe V"
+                }
+            },
+            {
+                "canonical_id": "asturias",
+                "original_id": "Asturias",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Asturias",
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "guardia_real",
+                "original_id": "Guardia Real",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Guardia Real"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobierno_de_asturias"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_espinosa_de_los_monteros",
+                "original_id": "Pedro Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Pedro Espinosa de los Monteros"
+                }
+            },
+            {
+                "canonical_id": "junta_general",
+                "original_id": "Junta General",
+                "tipo": "Organizacion",
+                "atributos": {
+                    "nombre": "Junta General"
+                }
+            },
+            {
+                "canonical_id": "real_provisión",
+                "original_id": "Real Provisión",
+                "tipo": "Documento",
+                "atributos": {
+                    "tipo_documento": "Real Provisión"
+                }
+            },
+            {
+                "canonical_id": "lucas_gonzález_vallejo",
+                "original_id": "Lucas González Vallejo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Lucas González Vallejo",
+                    "titulo": "Abogado de los Reales Consejos"
+                }
+            },
+            {
+                "canonical_id": "juan_burgalés_de_aguilar",
+                "original_id": "Juan Burgalés de Aguilar",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Juan Burgalés de Aguilar",
+                    "titulo": "Brigadier"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "PRESENTE",
+                "objeto": "credenciales"
+            },
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "ORGANIZÓ",
+                "objeto": "elementos_básicos_de_su_gobierno"
+            },
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "NOMBRÓ",
+                "objeto": "lucas_gonzález_vallejo"
+            },
+            {
+                "sujeto": "pedro_espinosa_de_los_monteros",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "juan_burgalés_de_aguilar"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "burgalés_de_aguilar",
+                "original_id": "Burgalés de Aguilar",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Burgalés de Aguilar"
+                }
+            },
+            {
+                "canonical_id": "brigadier",
+                "original_id": "brigadier",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "brigadier",
+                    "cargo": "brigadier"
+                }
+            },
+            {
+                "canonical_id": "corregidor",
+                "original_id": "corregidor",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "corregidor",
+                    "cargo": "corregidor"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "burgalés_de_aguilar",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "brigadier"
+            }
+        ],
+        "metadata": {
+            "source_page": 13,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "pedro_de_espinosa_de_los_monteros",
+                "original_id": "Don Pedro de Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro de Espinosa de los Monteros",
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "canonical_id": "gonzalo_zegrí_de_salazar",
+                "original_id": "Gonzalo Zegrí de Salazar",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Gonzalo Zegrí de Salazar",
+                    "cargo": "Teniente general"
+                }
+            },
+            {
+                "canonical_id": "santta_yglesia_cathedral",
+                "original_id": "Santta Yglesia Cathedral",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Santta Yglesia Cathedral",
+                    "subtipo": "Parroquia"
+                }
+            },
+            {
+                "canonical_id": "oviedo",
+                "original_id": "Oviedo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "nombre": "Oviedo",
+                    "subtipo": "Ciudad"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "gonzalo_zegrí_de_salazar",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "1r_juntta_general"
+            },
+            {
+                "sujeto": "pedro_de_espinosa_de_los_monteros",
+                "predicado": "FUE_NOMBRADO",
+                "objeto": "gobernador_político_y_militar"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "marqués_de_baldecarzana",
+                "original_id": "Marqués de Baldecarzana",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Juan de Pontigo",
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "canonical_id": "el_marqués_de_la_deleitosa",
+                "original_id": "El marqués de la Deleitosa",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Luis de Peón Valdés",
+                    "titulo": "Marqués"
+                }
+            },
+            {
+                "canonical_id": "joseph_de_argüelles_quiñones",
+                "original_id": "Don Joseph de Argüelles Quiñones",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Joseph de Argüelles Quiñones"
+                }
+            },
+            {
+                "canonical_id": "pedro_de_la_villa_solís",
+                "original_id": "Don Pedro de la Villa Solís",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro de la Villa Solís"
+                }
+            },
+            {
+                "canonical_id": "phelipe_de_caso_estrada",
+                "original_id": "Don Phelipe de Caso Estrada",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Phelipe de Caso Estrada"
+                }
+            },
+            {
+                "canonical_id": "juan_del_prado_y_malleza",
+                "original_id": "Don Juan del Prado y Malleza",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Juan del Prado y Malleza"
+                }
+            },
+            {
+                "canonical_id": "pedro_de_espinosa_de_los_monteros",
+                "original_id": "Señor don Pedro de Espinosa de los Monteros",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Don Pedro de Espinosa de los Monteros"
+                }
+            }
+        ],
+        "relaciones": [
+            {
+                "sujeto": "marqués_de_baldecarzana",
+                "predicado": "ASISTIÓ_A",
+                "objeto": "el_marqués_de_la_deleitosa"
+            },
+            {
+                "sujeto": "el_marqués_de_la_deleitosa",
+                "predicado": "RECEBIÓ",
+                "objeto": "reales_títulos_y_despachos"
+            },
+            {
+                "sujeto": "pedro_de_espinosa_de_los_monteros",
+                "predicado": "MANIFESTARON_Y_ENTREGARON",
+                "objeto": "reales_títulos_y_despachos"
+            }
+        ],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    },
+    {
+        "entidades": [
+            {
+                "canonical_id": "las_dos_sizilias",
+                "original_id": "las Dos Sizilias",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "jerusalén",
+                "original_id": "Jerusalén",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "navarra",
+                "original_id": "Navarra",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "granada",
+                "original_id": "Granada",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "toledo",
+                "original_id": "Toledo",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "valenzia",
+                "original_id": "Valenzia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "galizia",
+                "original_id": "Galizia",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "mallorca",
+                "original_id": "Mallorca",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "sevilla",
+                "original_id": "Sevilla",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "zerdeña",
+                "original_id": "Zerdeña",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "córdova",
+                "original_id": "Córdova",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "alxezira",
+                "original_id": "Alxezira",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "jibraltar",
+                "original_id": "Jibraltar",
+                "tipo": "Lugar",
+                "atributos": {
+                    "subtipo": "Reino"
+                }
+            },
+            {
+                "canonical_id": "islas_de_cánaria",
+                "original_id": "Islas de Cánaria",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "indias_orientales_y_occidentales",
+                "original_id": "Indias Orientales y Occidentales",
+                "tipo": "Organizacion",
+                "atributos": {}
+            },
+            {
+                "canonical_id": "archiduque_de_austria",
+                "original_id": "Archiduque de Austria",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": " Archiduque de Austria"
+                }
+            },
+            {
+                "canonical_id": "duque_de_borgoña",
+                "original_id": "Duque de Borgoña",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Duque de Borgoña"
+                }
+            },
+            {
+                "canonical_id": "conde_de_absburgo",
+                "original_id": "Conde de Absburgo",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Conde de Absburgo"
+                }
+            },
+            {
+                "canonical_id": "de_bizcaia_y_de_molina",
+                "original_id": "Señor de Bizcaia y de Molina",
+                "tipo": "Persona",
+                "atributos": {
+                    "nombre_completo": "Señor de Bizcaia y de Molina"
+                }
+            },
+            {
+                "canonical_id": "1712",
+                "original_id": "1712",
+                "tipo": "Fecha",
+                "atributos": {
+                    "fecha_texto": "1712-10-01 - 14"
+                }
+            }
+        ],
+        "relaciones": [],
+        "metadata": {
+            "source_page": 25,
+            "source_file": "Actas Históricas. Tomo XIV (1712-1716).pdf"
+        }
+    }
+]
